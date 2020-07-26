@@ -1,0 +1,24 @@
+.react-icons {
+  vertical-align: middle;
+  color: white;
+  text-decoration: "none";
+}
+
+.Header ul * {
+  display: inline;
+}
+
+.Header {
+  background-color: grey;
+}
+
+.Header * {
+  padding: 0px;
+  margin: 0px;
+}
+
+.Header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
