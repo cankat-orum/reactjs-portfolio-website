@@ -1,24 +1,50 @@
-.react-icons {
-  vertical-align: middle;
-  color: white;
-  text-decoration: "none";
-}
-
-.Header ul * {
-  display: inline;
-}
-
-.Header {
-  background-color: grey;
-}
-
 .Header * {
   padding: 0px;
   margin: 0px;
+}
+
+.Header {
+  background-color: transparent;
 }
 
 .Header nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.Header ul * {
+  display: inline;
+}
+
+.nav-left-ul {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-left {
+  margin-left: 1.5rem;
+  font-size: 1.05em;
+}
+
+.nav-right {
+  margin-right: 1.5rem;
+  font-size: 1.5em;
+}
+
+.nav-right-ul {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.react-icons {
+  vertical-align: middle;
+  color: white;
+  text-decoration: "none";
 }

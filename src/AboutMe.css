@@ -1,0 +1,10 @@
+.AboutMe {
+  margin: 0;
+  padding: 0;
+  background-image: url(./img/index-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+}
