@@ -6,15 +6,13 @@ import "./AboutMe.css";
 function AboutMe() {
   return (
     <div className="AboutMe">
-      <StickyContainer>
-        <Sticky>
-          {({ style }) => (
-            <header style={{ ...style }}>
-              <Header />
-            </header>
-          )}
-        </Sticky>
-      </StickyContainer>
+      <header>
+        <Header />
+      </header>
+      <div className="about-me-info">
+        <h1 className="about-me-info-h1">Cankat Örüm</h1>
+        <p className="about-me-info-p">I create cross-platform mobile apps.</p>
+      </div>
     </div>
   );
 }

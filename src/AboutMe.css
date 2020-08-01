@@ -8,3 +8,16 @@
   background-position: bottom;
   height: 100vh;
 }
+
+.about-me-info {
+  margin-top: 30vh;
+  float: left;
+  background: rgba(255, 255, 255, 0.2);
+  width: 100vw;
+}
+
+.about-me-info-h1,
+.about-me-info-p {
+  color: white;
+  float: left;
+}
