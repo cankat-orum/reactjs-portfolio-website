@@ -7,18 +7,18 @@ import "./ProjectItem.css";
 function ProjectItem() {
   return (
     <div className="ProjectItem">
-      <div>
-        <img src={ItemImg} />
+      <div className="project-item-img">
+        <img className="info-img" src={ItemImg} />
       </div>
       <div className="project-item-info">
         <p></p>
         <p></p>
-        <ul>
+        <ul className="project-links">
           <li>
-            <img src={PlayStore}></img>
+            <img className="playstore-icon" src={PlayStore}></img>
           </li>
           <li>
-            <img src={Github}></img>
+            <img className="github-icon" src={Github}></img>
           </li>
         </ul>
       </div>
