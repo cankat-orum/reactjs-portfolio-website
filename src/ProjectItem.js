@@ -1,26 +1,18 @@
 import React from "react";
 import ItemImg from "./img/index-bg.jpg";
-import PlayStore from "./img/playstore.png";
-import Github from "./img/github.png";
 import "./ProjectItem.css";
 
 function ProjectItem() {
   return (
     <div className="ProjectItem">
-      <div className="project-item-img">
-        <img className="info-img" src={ItemImg} />
-      </div>
-      <div className="project-item-info">
-        <p></p>
-        <p></p>
-        <ul className="project-links">
-          <li>
-            <img className="playstore-icon" src={PlayStore}></img>
-          </li>
-          <li>
-            <img className="github-icon" src={Github}></img>
-          </li>
-        </ul>
+      <img className="thumbnail" src={ItemImg}></img>
+      <div className="project-info">
+        <div className="links"></div>
+        <h5 className="project-title">Bildir App</h5>
+        <p className="project-desc">
+          This project is a mobile app built with Flutter
+        </p>
+        <div className="techs-used"></div>
       </div>
     </div>
   );

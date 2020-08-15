@@ -1,6 +1,7 @@
 .Projects {
-  margin: 0;
-  padding: 0;
-  background-color: gray;
   height: 100vh;
+}
+
+.projects-section-title {
+  color: rgb(100, 255, 218);
 }
