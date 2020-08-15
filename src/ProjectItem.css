@@ -1,9 +1,11 @@
 .ProjectItem {
   width: 600px;
   display: flex;
+  justify-content: space-between;
   background-color: rgb(23, 42, 69);
   box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
   border-radius: 5px;
+  margin: 20px;
 }
 
 .thumbnail {
@@ -13,6 +15,7 @@
 
 .project-info {
   order: 1;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
