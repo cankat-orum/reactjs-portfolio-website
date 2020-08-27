@@ -9,10 +9,14 @@ function Header() {
         <div className="nav-left">
           <ul className="nav-left-ul">
             <li>
-              <p>ABOUT ME</p>
+              <p>
+                <a href="/">ABOUT ME</a>
+              </p>
             </li>
             <li>
-              <p>MY PROJECTS</p>
+              <p>
+                <a href="#Projects">MY PROJECTS</a>
+              </p>
             </li>
             <li>
               <p>CONTACT ME</p>
@@ -22,17 +26,29 @@ function Header() {
         <div className="nav-right">
           <ul className="nav-right-ul">
             <li>
-              <a className="react-icons" href="/">
+              <a
+                className="react-icons"
+                target="_blank"
+                href="https://github.com/JohnCut"
+              >
                 <FaGithubSquare />
               </a>
             </li>
             <li>
-              <a className="react-icons" href="/">
+              <a
+                className="react-icons"
+                target="_blank"
+                href="https://www.linkedin.com/in/cankat-orum/"
+              >
                 <FaLinkedin />
               </a>
             </li>
             <li>
-              <a className="react-icons" href="/">
+              <a
+                className="react-icons"
+                target="_blank"
+                href="https://twitter.com/selftaughtdiary"
+              >
                 <FaTwitterSquare />
               </a>
             </li>

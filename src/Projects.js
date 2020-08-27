@@ -15,7 +15,7 @@ export const Col = styled.div`
 
 function Projects() {
   return (
-    <div className="Projects">
+    <div id="Projects">
       <h2 className="projects-section-title">My Projects</h2>
       <Grid>
         <Row>
