@@ -20,12 +20,13 @@
 }
 
 .nav-left-ul {
-  width: 400px;
+  width: 520px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-weight: 500;
   color: white;
+  letter-spacing: 3px;
 }
 
 .nav-left {

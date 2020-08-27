@@ -6,6 +6,13 @@
   box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
   border-radius: 5px;
   margin: 20px;
+  filter: grayscale(30%);
+  transition: 0.05s;
+}
+
+.ProjectItem:hover {
+  filter: none;
+  box-shadow: 0px 0px 10px 5px rgba(2, 12, 27, 0.7);
 }
 
 .thumbnail {

@@ -1,10 +1,14 @@
 .Projects {
-  height: 100vh;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .projects-section-title {
-  color: rgb(100, 255, 218);
+  color: rgb(162, 255, 233);
   margin-top: 50px;
   padding-left: 40px;
   text-align: left;
+  font-size: 1.5em;
+  letter-spacing: 3px;
 }

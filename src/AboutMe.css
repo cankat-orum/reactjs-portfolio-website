@@ -8,6 +8,8 @@
   background-size: cover;
   background-position: bottom;
   height: 100vh;
+  /* box-shadow: inset 0 0 20px #000000; */
+  box-shadow: inset 0 -75px 40px -10px rgb(10, 25, 47);
 }
 
 .about-me-info {
@@ -17,7 +19,7 @@
   width: 100vw;
   padding-top: 15px;
   padding-bottom: 40px;
-  padding-left: 20vw;
+  padding-left: 15vw;
 }
 
 .about-me-info-h1,
@@ -33,4 +35,5 @@
 
 .about-me-info-p {
   font-size: 1.5em;
+  margin-left: 75px;
 }
