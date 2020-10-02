@@ -41,3 +41,18 @@
 body {
   background-color: rgb(10, 25, 47);
 }
+
+.tech-img {
+  width: 1.5em;
+  height: 1.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+  border: 0;
+}
+
+.link-img {
+  width: 1.5em;
+  height: 1.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
