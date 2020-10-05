@@ -42,7 +42,7 @@ class ContactForm extends React.Component {
 
   render() {
     return (
-      <div className="ContactFormPage">
+      <div id="ContactFormPage">
         <h2 className="contact-form-title">CONTACT ME</h2>
         <div className="contact-form-div">
           <Grid>

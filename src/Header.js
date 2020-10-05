@@ -28,7 +28,7 @@ const Header = () => {
           <ul className="nav-left-ul">
             <li>
               <p>
-                <a href="/">ABOUT ME</a>
+                <a href="#AboutMe">ABOUT ME</a>
               </p>
             </li>
             <li>
