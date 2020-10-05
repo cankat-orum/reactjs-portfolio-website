@@ -1,3 +1,73 @@
+.ContactFormPage {
+  padding-top: 7em;
+  padding-bottom: 5em;
+  text-align: left;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./img/index-bg-flipped02.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: top;
+  box-shadow: inset 0 75px 40px -10px rgb(10, 25, 47);
+}
+
+.contact-form-div {
+  margin-top: 1.5em;
+  padding-left: 15em;
+  padding-right: 10em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.contact-form-title {
+  color: #282c34;
+  padding-left: 40px;
+  text-align: left;
+  font-size: 1.5em;
+  letter-spacing: 3px;
+  margin-left: 10em;
+}
+
+.name-email-div {
+  margin-bottom: 2em;
+}
+
+#full-name {
+  padding: 5px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+#email {
+  padding: 5px;
+  width: 15rem;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+#message {
+  padding: 10px;
+  width: 30rem;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  background-color: transparent;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.message-label-txt * {
+  vertical-align: middle;
+}
+
 .success-msg {
   color: #57a773;
   padding: 10px 15px;
