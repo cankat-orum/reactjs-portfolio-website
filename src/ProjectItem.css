@@ -16,7 +16,8 @@
 }
 
 .thumbnail {
-  width: 40%;
+  width: 187.5px;
+  height: 406px;
   order: 2;
 }
 

@@ -3,7 +3,7 @@
   padding-bottom: 5em;
   text-align: left;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(./img/index-bg-flipped02.jpg);
+    url(./img/bg02-flipped.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -22,10 +22,10 @@
 }
 
 .contact-form-title {
-  color: #282c34;
-  padding-left: 40px;
+  color: #925657;
   text-align: left;
-  font-size: 1.5em;
+  font-size: 1.7em;
+  font-weight: 1000;
   letter-spacing: 3px;
   margin-left: 10em;
 }
@@ -85,6 +85,7 @@
 }
 
 .rights-txt {
+  font-size: 0.8em;
   position: absolute;
   bottom: 0;
   text-align: center;
