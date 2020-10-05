@@ -51,7 +51,7 @@ class ContactForm extends React.Component {
                 <Row>
                   <Col size={1}>
                     <Form.Group className="name-email">
-                      <Form.Label htmlFor="full-name">Full Name: </Form.Label>
+                      <Form.Label htmlFor="full-name">Full Name</Form.Label>
                       <Form.Control
                         id="full-name"
                         name="name"
@@ -63,7 +63,7 @@ class ContactForm extends React.Component {
                   </Col>
                   <Col size={1}>
                     <Form.Group className="name-email">
-                      <Form.Label htmlFor="email">Email: </Form.Label>
+                      <Form.Label htmlFor="email">Email</Form.Label>
                       <Form.Control
                         id="email"
                         name="email"
@@ -77,7 +77,7 @@ class ContactForm extends React.Component {
               </div>
               <Form.Group className="message-form">
                 <div className="message-label-txt">
-                  <Form.Label htmlFor="message">Your Message: </Form.Label>
+                  <Form.Label htmlFor="message">Your Message</Form.Label>
                   <Form.Control
                     id="message"
                     name="message"
@@ -106,6 +106,7 @@ class ContactForm extends React.Component {
             </Form>
           </Grid>
         </div>
+        <p className="rights-txt">©2020 Cankat Örüm. All rights reserved.</p>
       </div>
     );
   }

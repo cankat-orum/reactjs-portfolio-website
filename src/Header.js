@@ -1,10 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 import "./Header.css";
 
-function Header() {
+const Header = () => {
+  const [scrolled, setScrolled] = React.useState(false);
+  const handleScroll = () => {
+    const offset = window.scrollY;
+    if (offset > 200) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+  });
+  let navbarClasses = ["Header"];
+  if (scrolled) {
+    navbarClasses.push("scrolled");
+  }
+
   return (
-    <div className="Header">
+    <div className={navbarClasses.join(" ")}>
       <nav>
         <div className="nav-left">
           <ul className="nav-left-ul">
@@ -19,7 +37,9 @@ function Header() {
               </p>
             </li>
             <li>
-              <p>CONTACT ME</p>
+              <p>
+                <a href="#ContactFormPage">CONTACT ME</a>
+              </p>
             </li>
           </ul>
         </div>
@@ -57,6 +77,6 @@ function Header() {
       </nav>
     </div>
   );
-}
+};
 
 export default Header;

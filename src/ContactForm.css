@@ -9,12 +9,13 @@
   background-size: cover;
   background-position: top;
   box-shadow: inset 0 75px 40px -10px rgb(10, 25, 47);
+  position: relative;
 }
 
 .contact-form-div {
   margin-top: 1.5em;
   padding-left: 15em;
-  padding-right: 10em;
+  padding-right: 15em;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
   background: rgba(255, 255, 255, 0.2);
@@ -30,31 +31,36 @@
 }
 
 .name-email-div {
-  margin-bottom: 2em;
+  margin-bottom: 1.1em;
 }
 
 #full-name {
+  width: 90%;
+  margin-top: 5px;
   padding: 5px;
   background-color: transparent;
   border-radius: 5px;
 }
 
 #email {
+  margin-top: 5px;
   padding: 5px;
-  width: 15rem;
+  width: 100%;
   background-color: transparent;
   border-radius: 5px;
 }
 
 #message {
+  margin-top: 5px;
   padding: 10px;
-  width: 30rem;
+  width: 100%;
   background-color: transparent;
   border: 1px solid black;
   border-radius: 5px;
 }
 
 .submit-btn {
+  margin-top: 1.1em;
   background-color: transparent;
   border-radius: 5px;
   padding-top: 10px;
@@ -76,4 +82,12 @@
 .err-msg {
   color: #ee6352;
   padding: 10px 15px;
+}
+
+.rights-txt {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 5px;
 }

@@ -3,8 +3,24 @@
   margin: 0px;
 }
 
+.scrolled * {
+  padding: 0px;
+  margin: 0px;
+}
+
 .Header {
   background-color: transparent;
+  transition: all 0.7s ease-in;
+  box-sizing: border-box;
+}
+
+.scrolled {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.2);
+  z-index: 1;
 }
 
 .Header nav {
